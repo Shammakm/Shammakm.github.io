@@ -1,6 +1,7 @@
 img {
-  width: 750px;
-   height: 483px;
+  width: 500px;
+   height: 500px;
+
 }
 
 a{
@@ -12,29 +13,34 @@ color: blue;
 .link-to-tv-buddha{
   color: orange;
 }
+#stars{
+margin-top: 200px;
+width: 300;
+height: 400;
 
-.fun-fact{
-  width:300px;
-  position: absolute;
-  top: 5px;
-  right: 5px;
-
-  padding: 5px;
-  border: 1px solid black;
 }
+
+#prince{
+  width: 1500;
+  height: 964;
+
+
+}
+/*
+
 body{
 
-	background-color: #c5d5cb
+	background-color: #FFDAB9
 ;
 	font-family: "New Times Roman";
 
- }
+ } */
 
 p{
 	text-align: center;
 
 	 /*single paragraph colour assingment*/
-	background-color: #c5d5cb
+	/* background-color: #FFDAB9 */
  ;
 	font-size: 20pt;
 
@@ -65,35 +71,39 @@ a:link {
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Arial;
 }
 
-/* Style tab links */
-.tablink {
-  background-color: #555;
-  color: white;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #FFE4C4; */
+}
+
+li {
   float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
+  margin-left: 18%;
+  margin-top: 2%;
+
 }
 
-.tablink:hover {
-  background-color: #777;
+li a {
+  display: block;
+  color: #232;
+  text-align: center;
+  padding: 20px 16px;
+  font-size: 30px;
+  text-decoration: none;
 }
 
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
+li a:hover:not(.active) {
+  background-color: #DEB887;
 }
 
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+.active {
+  background-color: #4CAF50;
+}
+
+body {background-color: #FFF8DC;}
