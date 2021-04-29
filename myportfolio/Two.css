@@ -1,37 +1,78 @@
-<html>
-<head>
-       <title>Shamma's Portfolio</title> 
-       <link rel="stylesheet" href="two.css">
-</head>
-<body>
-        <div class="container">
-          
+ *{
+     margin: 0;
+     padding: 0;
+ }
 
-            <div class="content">
-              <br><h1> 
-              ABOUT: 
-               <br> The second project is an interactive comic website! <br>
-               The comic revolves around a nightmare about an enlarging cake and   <br>how it's being delt with from a prespective of an adult vs child.  <br>
-                <br> </h1>
+ .navbar{
+  font-size: 40px;
+  width:100%;
+  height: 15vh;
+  margin-top: 100px;
+  display: all;
+  align-items: center;
+ }
+ 
+      
+ 
+ nav{
+  flex:1;
+  padding-left: 60px;
+ }
+ nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px
+ }
+  nav ul li a{
+    text-decoration: none;
+    color: #333
 
-              <p> </p>
-              
-       </div> 
+  }
+  .content h1{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #6a7199;
+    align-items: center;
+    left:400px; 
+    top:660px;
+    position:relative;
+  }
 
-       <img src="images/two.png" class="feature-img">
+  .content p{
+    font-size: 25px;
+    color: #6a7199;
+    align-items: center;
 
-<style>
-      body {
-        background-color: #F5B7B1;
-      }
-    </style>
+  }
+  .content{
+    margin-left: 0%
+    margin-top: 0%;
+  }
+  
 
-<div class="social-links">
-        <a href="shaurya-io.github.io/comicdreamycake/index.html">Website</a> 
-        <a href="https://docs.google.com/document/d/12x9Fl2DOClBNpaIs7llIsG_SmOLZuW1vt7Vy9bfVzFQ/edit?usp=sharing">Documentation</a>
-        <a href="index.html">Main</a>
-       </div>
-       
-   </div>
-</body>
-</html>        
+  .feature-img{
+    height: 120%;
+    position: absolute;
+    bottom: -1;
+    right:2px;
+
+
+}
+      
+  .social-links{
+  transform: rotate(-90deg);
+  position: absolute;
+  left: 10px;
+  bottom: 180px;
+}
+.social-links a{
+  text-decoration: none;
+  color: #6a7199;
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+
+ 
