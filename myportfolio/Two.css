@@ -1,9 +1,8 @@
-  *{
+ *{
      margin: 0;
      padding: 0;
  }
- 
- }
+
  .navbar{
   font-size: 40px;
   width:100%;
@@ -37,7 +36,7 @@
     color: #6a7199;
     align-items: center;
     left:400px; 
-    top:600px;
+    top:660px;
     position:relative;
   }
 
@@ -54,10 +53,10 @@
   
 
   .feature-img{
-    height: 110%;
+    height: 120%;
     position: absolute;
     bottom: -1;
-    right:120px;
+    right:2px;
 
 
 }
@@ -77,4 +76,3 @@
 
 
  
-
