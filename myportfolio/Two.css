@@ -51,12 +51,11 @@
     margin-top: 0%;
   }
   
-
-  .feature-img{
-    height: 120%;
+.feature-img{
+    height: 110%;
     position: absolute;
     bottom: -1;
-    right:2px;
+    right:120px;
 
 
 }
